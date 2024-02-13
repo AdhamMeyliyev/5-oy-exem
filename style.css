@@ -1,0 +1,214 @@
+body{
+    background: rgb(231,71,142);
+background: linear-gradient(81deg, rgba(231,71,142,1) 24%, rgba(255,184,1,1) 63%);
+position: relative;
+overflow-y: hidden;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 373px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 31px;
+}
+
+.header--left{
+    display: flex;
+    align-items:center;
+    gap: 39px;
+}
+
+ol, ul{
+    list-style: none;
+}
+
+.header__list{
+    display: flex;
+    align-items:center;
+    gap: 36px;
+}
+
+.header__item{
+    font-size: 11px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header--right{
+    display: flex;
+    align-items:center;
+    gap: 120px;
+}
+
+.hero--right__img{
+    width: 35px;
+    /* margin-top: 15px; */
+    height: 35px;
+    background-color: #de343e;
+    border-radius: 50%;
+}
+
+.hero__h1{
+    font-size: 40px;
+    color:#fff;
+}
+
+.hero__price{
+    font-size: 16px;
+    color:#fff;
+    margin-bottom: 13px;
+    text-decoration: none;
+}
+
+.hero__desc{
+    font-size: 11px;
+    color:#fff;
+    width: 160px;
+}
+
+
+.hero__select{
+    width: 131px;
+    height: 37px;
+    background-color: transparent;
+    border-radius:25px;
+    border: 3px solid #000;
+    padding-left: 28px;
+    font-size: 13px;
+    color:#fff;
+}
+
+.hero__option{
+    font-size: 13px;
+    color:#fff;
+}
+
+.hero--right{
+    display: flex;
+    /* align-items:center; */
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.hero{
+    display: flex;
+    align-items:center;
+    gap: 43px;
+    margin-left: 1250px;
+    margin-top: 71px;
+}
+
+.option__desc{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #000;
+    font-size: 13px;
+    color:#fff;
+    position: relative;
+    
+}
+
+.select__wrapper{
+    display: flex;
+    align-items:center;
+    gap: 4px;
+}
+
+.hero__btn{
+    width: 131px;
+    height: 37px;
+    background: #2c2c2c;
+    border-radius:25px;
+    color:#fff;
+    font-size: 13px;
+}
+
+.hero__like{
+    width: 37px;
+    height: 37px;
+    background-color: #fff;
+    border-radius:50%;
+}
+
+.hero__btn--wrapper{
+    display: flex;
+    align-items:center;
+    gap: 4px;
+}
+
+.hero__big--img1{
+    position: absolute;
+    top:60px;
+    left: 540px;
+    width: 269px;
+    height: 259px;
+    z-index: 9;
+    
+}
+
+.hero__dame--img{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 10;
+}
+
+.adidas__logo--wrapper{
+    display: flex;
+    align-items:center;
+    gap: 9px;
+    z-index: -7;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+}
+
+.adidas--img{
+    width: 25px;
+    height: 445px;
+}
+
+.hero__zebra--img{
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    z-index: 1;
+}
+
+.women--img{
+    position: absolute;
+    top: 100px;
+    z-index: 100;
+    width: 748px;
+    left: 26%;
+}
+
+.hero--left--bottom{
+    width: 24px;
+    height: 45px;
+    background-color: #000;
+    position: absolute;
+    left: 20px;
+    bottom: -130px;
+}
+
+.adidas__logo--wrapper2{
+    position: absolute;
+    bottom:-570px;
+    left: 50%;
+}
+
+.dame--heading{
+    font-size: 16px;
+    color:#fff;
+    position: absolute;
+    top: 550px;
+    left: 51%;
+    font-weight: bold;
+}
